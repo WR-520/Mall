@@ -1,0 +1,24 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "意见反馈",
+                    "pathName": "pages/feedback/index",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

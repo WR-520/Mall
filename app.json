@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",  
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/pay/index",
+    "pages/auth/index"
+  ],
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "WRの杂货铺",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/_home.png"
+      },{
+        "pagePath": "pages/cart/index", 
+        "text": "购物车",
+        "iconPath": "icon/cart.png", 
+        "selectedIconPath": "icon/_cart.png"
+      },{
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icon/category.png", 
+        "selectedIconPath": "icon/_category.png"
+      },{
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icon/my.png", 
+        "selectedIconPath": "icon/_my.png"
+      }
+    ]  
+  },
+  
+    
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

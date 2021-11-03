@@ -1,0 +1,23 @@
+@import "./styles/iconfont";
+page,view,text,image,swiper,swiper-item,navigator{
+  padding:0;
+  margin:0;
+  /* height: 240px; */
+  box-sizing:border-box;
+}
+
+page{ 
+  /*定义主题颜色*/ 
+  --themeColor:#eb4450; 
+  /*定义统一字体大小 假设设计稿 大小是375px*/
+  font-size:28rpx;
+} 
+
+iamge{
+  width:100%;
+  height: unset;
+}
+
+swiper {
+  height: 340rpx;
+}
